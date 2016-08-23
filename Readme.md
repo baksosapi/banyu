@@ -10,7 +10,7 @@
 
 **cd into folder**
 
-    $ cd bayu
+    $ cd banyu
 **install project dependencies**
 
     $ npm install --save

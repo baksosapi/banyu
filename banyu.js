@@ -1,10 +1,9 @@
 var aql = require('alasql');
 var http = require("http");
 
-var url = "http://localhost/water_points.json";
 
 
-http.get("http://localhost/water_points.json", function(response){
+http.get("https://raw.githubusercontent.com/onaio/ona-tech/master/data/water_points.json", function(response){
     //console.log(response.statusCode);
 
     var body = '';
