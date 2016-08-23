@@ -8,13 +8,14 @@
 
     $ git clone git@github.com:baksosapi/banyu.git
 
-**cd into folder**
+**cd into clone folder**
 
     $ cd banyu
-**install project dependencies**
+**install dependencies**
 
-    $ npm install --save
+    $ npm install request --save
+    $ npm install alasql --save
 
 **run**
 
-    $ node app.js
+    $ node banyu.js
